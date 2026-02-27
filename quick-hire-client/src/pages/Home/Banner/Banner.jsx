@@ -12,15 +12,15 @@ const Banner = () => {
                         <h1 className='text-7xl font-semibold'>Discover more than <span className='text-info'>5000+ <br />Jobs</span></h1>
                         <img className='my-5' src={line} alt="Line" />
                         <p className='text-[#515B6F]'>Great platform for the job seeker that searching for new career heights and passionate about startups.</p>
-                        <form className='flex w-full overflow-visible my-5'>
-                            <input type="text" name="" id="" placeholder='Job title or keyword' />
-                            <select defaultValue="Florence, Italy" className="select border-b border-[#25324b]">
+                        <form className='flex flex-col md:flex-row items-center gap-2 w-full overflow-visible my-5 p-4 bg-white'>
+                            <input className='w-full border-b-2 pb-1 border-[#20243010]' type="text" name="" id="" placeholder='Job title or keyword' />
+                            <select defaultValue="Florence, Italy" className="w-full border-b-2 pb-2 border-[#20243010]">
                                 <option disabled={true}>Florence, Italy</option>
                                 <option>Milan, Italy</option>
                                 <option>Torino, Italy</option>
                                 <option>Roma, Italy</option>
                             </select>
-                            <button className='btn btn-primary'>Search my job</button>
+                            <button className='btn btn-primary w-full md:w-fit'>Search my job</button>
                         </form>
                         <p className='text-[#202430]'>Popular : UI Designer, UX Researcher, Android, Admin</p>
                     </div>

@@ -34,13 +34,13 @@ const Footer = () => {
                         <h6 className="footer-title">Get job notifications</h6>
                         <p>The latest job news, articles, sent to your inbox weekly.</p>
                         <form>
-                            <fieldset className="w-full">
-                                <div className="flex gap-2">
+                            <fieldset className="">
+                                <div className="flex flex-col md:flex-row gap-2">
                                     <input
                                         type="text"
                                         placeholder="Email Address"
-                                        className="input input-bordered text-[#A8ADB7] rounded-none" />
-                                    <button className="btn btn-primary">Subscribe</button>
+                                        className="input input-bordered text-[#A8ADB7] rounded-none w-full" />
+                                    <button className="btn btn-primary w-fit">Subscribe</button>
                                 </div>
                             </fieldset>
                         </form>
