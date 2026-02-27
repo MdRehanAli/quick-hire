@@ -5,7 +5,31 @@ import line from '../../../assets/Line.png'
 
 const Banner = () => {
     return (
-        
+        <div style={{ backgroundImage: `url(${imageUrl})` }} className='bg-[#F8F8FD] bg-right bg-no-repeat'>
+            <div className='mx-auto max-w-7xl w-11/12'>
+                <div className='flex flex-col md:flex-row gap-16'>
+                    <div className='flex-1 pt-20'>
+                        <h1 className='text-7xl font-semibold'>Discover more than <span className='text-info'>5000+ <br />Jobs</span></h1>
+                        <img className='my-5' src={line} alt="Line" />
+                        <p className='text-[#515B6F]'>Great platform for the job seeker that searching for new career heights and passionate about startups.</p>
+                        <form className='flex w-full overflow-visible my-5'>
+                            <input type="text" name="" id="" placeholder='Job title or keyword' />
+                            <select defaultValue="Florence, Italy" className="select border-b border-[#25324b]">
+                                <option disabled={true}>Florence, Italy</option>
+                                <option>Milan, Italy</option>
+                                <option>Torino, Italy</option>
+                                <option>Roma, Italy</option>
+                            </select>
+                            <button className='btn btn-primary'>Search my job</button>
+                        </form>
+                        <p className='text-[#202430]'>Popular : UI Designer, UX Researcher, Android, Admin</p>
+                    </div>
+                    <div className='flex-1'>
+                        <img src={man} alt="Man" />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 };
 
