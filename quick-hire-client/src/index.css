@@ -1,8 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
 @plugin "daisyui" {
   themes: light --default;
 }
 
-/* .btn-primary {
-  @apply bg-gradient-to-r bg-[#4640de] text-white px-6 py-3 rounded-none
+@plugin "daisyui/theme" {
+  name: "light";
+  /* default: true; */
+  --color-primary: #4640de;
+  --color-secondary: #26A4FF;
+  --color-accent: #000000;
+  --color-info: #7C8493;
+}
+
+.btn-primary {
+  @apply bg-[#4640de] text-white font-bold px-6 py-3 rounded-none
+}
+
+* {
+  font-family: "Epilogue", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

@@ -2,6 +2,8 @@ import React from 'react';
 import { createBrowserRouter } from 'react-router';
 import RootLayout from '../layouts/RootLayout';
 import Home from '../pages/Home/Home/Home';
+import FindJobs from '../pages/FindJobs/FindJobs';
+import BrowseCompanies from '../pages/BrowseCompanies/BrowseCompanies';
 
 const router = createBrowserRouter([
     {
@@ -14,11 +16,11 @@ const router = createBrowserRouter([
             },
             {
                 path: 'find-jobs',
-                Component:
+                Component: FindJobs
             },
             {
                 path: 'browse-companies',
-                Component:
+                Component: BrowseCompanies
             },
         ]
     }
