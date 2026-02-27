@@ -10,8 +10,16 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                Component: Home,
-            }
+                Component: Home
+            },
+            {
+                path: 'find-jobs',
+                Component:
+            },
+            {
+                path: 'browse-companies',
+                Component:
+            },
         ]
     }
 ])

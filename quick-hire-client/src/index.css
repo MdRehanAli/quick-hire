@@ -2,3 +2,7 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+
+/* .btn-primary {
+  @apply bg-gradient-to-r bg-[#4640de] text-white px-6 py-3 rounded-none
+}
