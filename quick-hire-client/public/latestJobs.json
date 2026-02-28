@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "role": "Social Media Assistant",
+    "company": "Nomad",
+    "location": "Paris, France",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/qYJ6qN5v/Logo1.png"
+  },
+  {
+    "id": 2,
+    "role": "Social Media Assistant",
+    "company": "Netlify",
+    "location": "Paris, France",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/PZvz0ZJy/Logo2.png"
+  },
+  {
+    "id": 3,
+    "role": "Brand Designer",
+    "company": "Dropbox",
+    "location": "San Francisco, USA",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/1GKXjyQp/Logo3.png"
+  },
+  {
+    "id": 4,
+    "role": "Brand Designer",
+    "company": "Maze",
+    "location": "San Francisco, USA",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/sdM1wrjt/Logo4.png"
+  },
+  {
+    "id": 5,
+    "role": "Interactive Developer",
+    "company": "Terraform",
+    "location": "Hamburg, Germany",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/XxvHd3j8/Logo5.png"
+  },
+  {
+    "id": 6,
+    "role": "Interactive Developer",
+    "company": "Udacity",
+    "location": "Hamburg, Germany",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/ZpWNDdp6/Logo6.png"
+  },
+  {
+    "id": 7,
+    "role": "HR Manager",
+    "company": "Packer",
+    "location": "Lucern, Switzerland",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/PsfLsZt0/Logo7.png"
+  },
+  {
+    "id": 8,
+    "role": "HR Manager",
+    "company": "Webflow",
+    "location": "Lucern, Switzerland",
+    "type": "Full-Time",
+    "tags": ["Marketing", "Design"],
+    "logoUrl": "https://i.ibb.co.com/xqfwhdGZ/Logo8.png"
+  }
+]

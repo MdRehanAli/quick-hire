@@ -4,11 +4,13 @@ import RootLayout from '../layouts/RootLayout';
 import Home from '../pages/Home/Home/Home';
 import FindJobs from '../pages/FindJobs/FindJobs';
 import BrowseCompanies from '../pages/BrowseCompanies/BrowseCompanies';
+import Loading from '../component/Loading/Loading';
 
 const router = createBrowserRouter([
     {
         path: '/',
         Component: RootLayout,
+        hydrateFallbackElement: <Loading></Loading>,
         children: [
             {
                 index: true,

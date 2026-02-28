@@ -4,6 +4,9 @@ import Companies from '../Companies/Companies';
 import Category from '../Category/Category';
 import JobToday from '../JobToday/JobToday';
 import FeaturedJobs from '../../FeaturedJobs/FeaturedJobs';
+import LatestJobs from '../../LatestJobs/LatestJobs';
+
+const jobsPromise = fetch('/latestJobs.json').then((res) => res.json());
 
 const Home = () => {
     return (
@@ -13,6 +16,7 @@ const Home = () => {
             <Category></Category>
             <JobToday></JobToday>
             <FeaturedJobs></FeaturedJobs>
+            <LatestJobs jobsPromise={jobsPromise}></LatestJobs>
         </div>
     );
 };

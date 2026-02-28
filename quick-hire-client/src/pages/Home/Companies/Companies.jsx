@@ -7,7 +7,7 @@ import talkit from '../../../assets/talkit.png'
 
 const Companies = () => {
     return (
-        <div className='max-w-[1194px] mx-auto w-11/12 py-12'>
+        <div className='max-w-298.5 mx-auto w-11/12 py-12'>
             <p className='mb-8 text-[#20243050]'>Companies we helped grow</p>
             <div className='flex justify-between items-center flex-wrap'>
                 <img src={vodafone} alt="vodafone" />
