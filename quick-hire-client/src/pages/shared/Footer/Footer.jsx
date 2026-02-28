@@ -6,7 +6,7 @@ import { FaDribbble, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "r
 const Footer = () => {
     return (
         <footer className="bg-[#202430] text-white py-16">
-            <div className='max-w-7xl mx-auto w-11/12'>
+            <div className='max-w-298.5 mx-auto w-11/12'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-5'>
                     <div className='flex flex-col gap-4 col-span-2'>
                         <Link to="/" className="flex font-bold items-center gap-2 text-xl ">

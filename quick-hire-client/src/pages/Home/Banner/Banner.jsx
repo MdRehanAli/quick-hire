@@ -6,7 +6,7 @@ import line from '../../../assets/Line.png'
 const Banner = () => {
     return (
         <div style={{ backgroundImage: `url(${imageUrl})` }} className='bg-[#F8F8FD] bg-right bg-no-repeat'>
-            <div className='mx-auto max-w-7xl w-11/12'>
+            <div className='mx-auto max-w-298.5 w-11/12'>
                 <div className='flex flex-col md:flex-row gap-16'>
                     <div className='flex-1 pt-20'>
                         <h1 className='text-7xl font-semibold'>Discover more than <span className='text-secondary'>5000+ <br />Jobs</span></h1>

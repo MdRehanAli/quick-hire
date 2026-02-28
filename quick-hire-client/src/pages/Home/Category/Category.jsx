@@ -16,7 +16,7 @@ const Category = () => {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto w-11/12 py-12">
+        <div className="max-w-298.5 mx-auto w-11/12 py-12">
             <div className="flex justify-between items-center mb-10">
                 <h1 className='mb-12 text-5xl font-semibold'>Explore by <span className='text-secondary'>category</span></h1>
                 <button className="text-primary font-medium flex items-center gap-4 hover:underline">

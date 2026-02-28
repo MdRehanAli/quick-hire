@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "role": "Email Marketing",
+        "company": "Revolut",
+        "location": "Madrid, Spain",
+        "description": "Revolut is looking for Email Marketing to help team ma...",
+        "type": "Full Time",
+        "tags": [
+            "Marketing",
+            "Design"
+        ],
+        "logoUrl": "https://i.ibb.co.com/F4XK20jR/Logo1.png"
+    },
+    {
+        "id": 2,
+        "role": "Brand Designer",
+        "company": "Dropbox",
+        "location": "San Francisco, US",
+        "description": "Dropbox is looking for Brand Designer to help the team t...",
+        "type": "Full Time",
+        "tags": [
+            "Design",
+            "Business"
+        ],
+        "logoUrl": "https://i.ibb.co.com/Yxn92ht/Logo2.png"
+    },
+    {
+        "id": 3,
+        "role": "Email Marketing",
+        "company": "Pitch",
+        "location": "Berlin, Germany",
+        "description": "Pitch is looking for Customer Manager to join marketing t...",
+        "type": "Full Time",
+        "tags": [
+            "Marketing"
+        ],
+        "logoUrl": "https://i.ibb.co.com/xK7nvQm3/Logo3.png"
+    },
+    {
+        "id": 4,
+        "role": "Visual Designer",
+        "company": "Blinklist",
+        "location": "Granada, Spain",
+        "description": "Blinklist is looking for Visual Designer to help team desi...",
+        "type": "Full Time",
+        "tags": [
+            "Design"
+        ],
+        "logoUrl": "https://i.ibb.co.com/rGcR5Chg/Logo4.png"
+    },
+    {
+        "id": 5,
+        "role": "Product Designer",
+        "company": "ClassPass",
+        "location": "Manchester, UK",
+        "description": "ClassPass is looking for Product Designer to help us...",
+        "type": "Full Time",
+        "tags": [
+            "Marketing",
+            "Design"
+        ],
+        "logoUrl": "https://i.ibb.co.com/XrvMyxD0/Logo5.png"
+    },
+    {
+        "id": 6,
+        "role": "Lead Designer",
+        "company": "Canva",
+        "location": "Ontario, Canada",
+        "description": "Canva is looking for Lead Engineer to help develop n...",
+        "type": "Full Time",
+        "tags": [
+            "Design",
+            "Business"
+        ],
+        "logoUrl": "https://i.ibb.co.com/6JwbBTqN/Logo6.png"
+    },
+    {
+        "id": 7,
+        "role": "Brand Strategist",
+        "company": "GoDaddy",
+        "location": "Marseille, France",
+        "description": "GoDaddy is looking for Brand Strategist to join the team...",
+        "type": "Full Time",
+        "tags": [
+            "Marketing"
+        ],
+        "logoUrl": "https://i.ibb.co.com/TMJMWgQq/Logo7.png"
+    },
+    {
+        "id": 8,
+        "role": "Data Analyst",
+        "company": "Twitter",
+        "location": "San Diego, US",
+        "description": "Twitter is looking for Data Analyst to help team desi...",
+        "type": "Full Time",
+        "tags": [
+            "Technology"
+        ],
+        "logoUrl": "https://i.ibb.co.com/sdf7vQqR/Logo8.png"
+    }
+]

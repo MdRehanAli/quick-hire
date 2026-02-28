@@ -3,7 +3,7 @@ import dashboard from '../../../assets/Dash.png'
 
 const JobToday = () => {
     return (
-        <div className='bg-primary max-w-7xl mx-auto w-11/12 pt-17 px-17 flex flex-col md:flex-row justify-between items-center gap-10'>
+        <div className='bg-primary max-w-298.5 mx-auto w-11/12 pt-17 px-17 flex flex-col md:flex-row justify-between items-center gap-10'>
             <div className='text-white'>
                 <h1 className='font-semibold text-5xl '>Start posting <br /> jobs today</h1>
                 <p className='my-6'>Start posting jobs for only $10.</p>
