@@ -3,8 +3,7 @@ import React from 'react';
 const LatestJobCard = ({job}) => {
     return (
         <div className="flex items-start bg-white p-6 border border-[#D6DDEB]">
-            {/* Logo Container */}
-            <div className="mr-5 shrink-0">
+            <div className="mr-5">
                 <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
                     <img
                         src={job.logoUrl}
@@ -14,7 +13,6 @@ const LatestJobCard = ({job}) => {
                 </div>
             </div>
 
-            {/* Job Details */}
             <div className="flex-1">
                 <h3 className="text-[18px] font-bold text-slate-900 leading-tight">
                     {job.role}
@@ -26,7 +24,6 @@ const LatestJobCard = ({job}) => {
                     <span>{job.location}</span>
                 </div>
 
-                {/* Tags matched to design colors */}
                 <div className="flex flex-wrap gap-2 mt-4">
                     <span className="px-4 py-1 bg-emerald-50 text-emerald-500 rounded-full text-[12px] font-bold border border-emerald-100">
                         {job.type}
