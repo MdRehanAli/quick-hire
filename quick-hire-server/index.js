@@ -29,7 +29,32 @@ app.get('/', (req, res) => {
 async function run() {
     try {
         // Connect the client to the server	(optional starting in v4.7)
-        await client.connect();
+        // await client.connect();
+
+        const db = client.db("quickHireDB");
+        const jobsCollection = db.collection('jobs');
+
+        app.get('/jobs', async (req, res) => {
+            const query = {};
+
+            const cursor = jobsCollection.find(query)
+            const result = await cursor.toArray();
+            res.send(result);
+        })
+
+        app.get('/jobs/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: new ObjectId(id) };
+            const result = await jobsCollection.findOne(query);
+            res.send(result);
+        })
+
+        app.post('/jobs', async (req, res) => {
+            const job = req.body;
+            const result = await jobsCollection.insertOne(job);
+            res.send(result);
+        })
+
         // Send a ping to confirm a successful connection
         await client.db("admin").command({ ping: 1 });
         console.log("Pinged your deployment. You successfully connected to MongoDB!");
