@@ -19,7 +19,8 @@ const router = createBrowserRouter([
             },
             {
                 path: 'find-jobs',
-                Component: FindJobs
+                Component: FindJobs,
+                loader: () => fetch('/jobs.json')
             },
             {
                 path: 'browse-companies',
