@@ -5,6 +5,7 @@ import Home from '../pages/Home/Home/Home';
 import FindJobs from '../pages/FindJobs/FindJobs';
 import BrowseCompanies from '../pages/BrowseCompanies/BrowseCompanies';
 import Loading from '../component/Loading/Loading';
+import JobDetails from '../pages/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
                 path: 'find-jobs',
                 Component: FindJobs,
                 loader: () => fetch('/jobs.json')
+            },
+            {
+                path: 'job-details/:id',
+                loader: ({params}) => fetch(`http://localhost:5000/jobs/${params.id}`),
+                Component: JobDetails,
             },
             {
                 path: 'browse-companies',
