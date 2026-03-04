@@ -6,6 +6,7 @@ import FindJobs from '../pages/FindJobs/FindJobs';
 import BrowseCompanies from '../pages/BrowseCompanies/BrowseCompanies';
 import Loading from '../component/Loading/Loading';
 import JobDetails from '../pages/JobDetails/JobDetails';
+import Login from '../pages/Login/Login';
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             {
                 path: 'browse-companies',
                 Component: BrowseCompanies
+            },
+            {
+                path: 'login',
+                Component: Login
             },
         ]
     }
